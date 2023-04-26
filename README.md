@@ -5,3 +5,6 @@
 
 ## Project Goal
 
+## Project Architecture
+
+![MobileNet_workflow](https://user-images.githubusercontent.com/112578755/234439386-16ba6af4-93d8-4c65-a6ac-239cbbbd5ce1.jpg)
