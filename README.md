@@ -17,6 +17,9 @@ Next, the parameters of the trained model was pushed to huggingface models.
 
 Then, a CICD process was established using GitHub Actions, meaning as long as the app file change on github, it will directly deploy on change on the web app hosted by the HuggingFace Spaces.
 
+### CICD repoo refer to here
+https://github.com/Emmawang00/CICD_huggingface
+
 ## Web App deployment
 
 https://huggingface.co/spaces/Emmawang/Fake_image_detection
