@@ -4,17 +4,15 @@
 
 ## Project Goal
 
-The project aims to differentiate fake images from authemticate images using a pre-trained MobileNet model.
+The goal of this project is to develop a tool that can distinguish between fake and authentic images using a pre-trained MobileNet model. With advancements in AI-generated images, the ability to accurately detect fake images has become increasingly important. The project aims to provide a useful and reliable solution for identifying fake images and helping people verify the authenticity of visual content.
 
 ## Project Architecture
 
 ![MobileNet_workflow](https://user-images.githubusercontent.com/112578755/234439386-16ba6af4-93d8-4c65-a6ac-239cbbbd5ce1.jpg)
 
-* First, all the fake and real images were saved on the AWS s3, then it was loaded onto Google colab to train the model.
+* To train the model, the fake and authentic images were first stored on AWS S3 and then loaded into Google Colab. Once the model was trained, its parameters were pushed to Hugging Face Models.
 
-* Next, the parameters of the trained model was pushed to huggingface models.
-
-* Then, a CICD process was established using GitHub Actions, meaning as long as the app file change on github, it will directly deploy on change on the web app hosted by the HuggingFace Spaces.
+* To ensure a smooth and efficient deployment process, a CICD (Continuous Integration/Continuous Deployment) pipeline was established using GitHub Actions. This means that any changes made to the app file on GitHub will trigger an automatic deployment of the updated version to the web app hosted by HuggingFace Spaces.
 
 ### CICD repoo refer to here
 https://github.com/Emmawang00/CICD_HF_Sync
