@@ -1,4 +1,4 @@
-![Sync to Hugging Face hub](https://github.com/Emmawang00/CICD_HF_Sync/actions/workflows/main.yml/badge.svg)
+![CICD: Sync to Hugging Face hub](https://github.com/Emmawang00/CICD_HF_Sync/actions/workflows/main.yml/badge.svg)
 
 # Fake Image Detection
 
