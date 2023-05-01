@@ -20,3 +20,5 @@ https://github.com/Emmawang00/CICD_HF_Sync
 ## Web App deployment
 
 https://huggingface.co/spaces/Emmawang/Fake_image_detection
+
+<img width="609" alt="Screen Shot 2023-05-01 at 10 08 39 PM" src="https://user-images.githubusercontent.com/112578755/235464253-6219c2ee-7771-48dc-90d2-9d2e351d8ea2.png">
